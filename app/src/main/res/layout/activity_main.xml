@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/startOver"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/start_over"
+        app:srcCompat="@drawable/start_over" />
+
+    <ImageButton
+        android:id="@+id/resetTable"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/reset_table"
+        app:srcCompat="@drawable/reset_table" />
+
+    <ImageButton
+        android:id="@+id/howToPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/how_to_play"
+        app:srcCompat="@drawable/how_to_play" />
+
+    <TextView
+        android:id="@+id/score_moves"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="96dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="@string/maxNumber"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/moves"
+        tools:ignore="RelativeOverlap"/>
+
+    <ImageView
+        android:id="@+id/skill_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="116dp"
+        android:contentDescription="@string/skill_level"
+        app:srcCompat="@drawable/skill_level" />
+
+    <ImageButton
+        android:id="@+id/easyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="84dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/easy"
+        app:srcCompat="@drawable/easy" />
+
+    <ImageButton
+        android:id="@+id/mediumButton"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="52dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/medium"
+        app:srcCompat="@drawable/medium" />
+
+    <ImageButton
+        android:id="@+id/hardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/hard"
+        app:srcCompat="@drawable/hard" />
+
+</RelativeLayout>

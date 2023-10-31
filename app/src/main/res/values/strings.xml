@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">RayRay Parade</string>
+    <string name="start_over">Start Over</string>
+    <string name="reset_table">Reset Table</string>
+    <string name="how_to_play">How To Play</string>
+    <string name="moves">Moves</string>
+    <string name="maxNumber">999</string>
+    <string name="skill_level">Skill Level</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="ray01">Ray 01</string>
+    <string name="ray02">Ray 02</string>
+    <string name="ray03">Ray 03</string>
+    <string name="ray04">Ray 04</string>
+    <string name="ray05">Ray 05</string>
+    <string name="ray06">Ray 06</string>
+    <string name="ray07">Ray 07</string>
+    <string name="ray08">Ray 08</string>
+    <string name="ray09">Ray 09</string>
+    <string name="ray10">Ray 10</string>
+    <string name="ray11">Ray 11</string>
+    <string name="ray12">Ray 12</string>
+    <string name="ray13">Ray 13</string>
+    <string name="ray14">Ray 14</string>
+    <string name="ray15">Ray 15</string>
+    <string name="ray16">Ray 16</string>
+    <string name="ray17">Ray 17</string>
+    <string name="ray18">Ray 18</string>
+    <string name="ray19">Ray 19</string>
+    <string name="ray20">Ray 20</string>
+    <string name="ray21">Ray 21</string>
+    <string name="ray22">Ray 22</string>
+    <string name="ray23">Ray 23</string>
+    <string name="ray24">Ray 24</string>
+    <string name="ray25">Ray 25</string>
+</resources>
